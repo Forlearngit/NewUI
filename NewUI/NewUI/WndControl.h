@@ -1,6 +1,6 @@
 #pragma once
 #include "stdafx.h"
-#include <UIlib.h>
+#include <../DuiLib/UIlib.h>
 #pragma comment(lib,"DuiLib_ud.lib")
 using namespace DuiLib;
 
