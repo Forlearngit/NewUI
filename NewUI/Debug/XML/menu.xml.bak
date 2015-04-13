@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window size="160,250" roundcorner="6,6,6,6">
+	<VerticalLayout bkcolor="#FFebf9fa" bkcolor2="#FFbbebef">
+		<HorizontalLayout height="5" />
+		<Label text="请输入您需要的串口号:" float="true" pos="10,5,0,0" width="142" height="21" />
+		<Combo name="config_combo"  float="true" pos="10,25,0,0" width="142" height="19" dropboxsize="0,120" normalimage="file='Image/Combo_nor.bmp'" hotimage="file='Image/Combo_over.bmp'"/>
+		<Edit name="config_edit" float="true" pos="11,26,0,0" width="121" height="17.2" />
+		<Label text="一号窗口屏地址:" float="true" pos="10,45,0,0" width="142" height="21" />
+		<Combo name="config_combo1"  float="true" pos="10,65,0,0" width="142" height="19" dropboxsize="0,120" normalimage="file='Image/Combo_nor.bmp'" hotimage="file='Image/Combo_over.bmp'"/>
+		<Edit name="config_edit1" float="true" pos="11,66,0,0" width="121" height="17" />
+		<Label text="二号窗口屏地址:" float="true" pos="10,85,0,0" width="142" height="21" />
+		<Combo name="config_combo2"  float="true" pos="10,105,0,0" width="142" height="19" dropboxsize="0,120" normalimage="file='Image/Combo_nor.bmp'" hotimage="file='Image/Combo_over.bmp'"/>
+		<Edit name="config_edit2" float="true" pos="11,106,0,0" width="121" height="17" />
+		<Label text="三号窗口屏地址:" float="true" pos="10,126,0,0" width="142" height="21" />
+		<Combo name="config_combo3"  float="true" pos="10,146,0,0" width="142" height="19" dropboxsize="0,120" normalimage="file='Image/Combo_nor.bmp'" hotimage="file='Image/Combo_over.bmp'"/>
+		<Edit name="config_edit3" float="true" pos="11,147,0,0" width="121" height="17" />
+		<Label text="四号窗口屏地址:" float="true" pos="10,166,0,0" width="142" height="21" />
+		<Combo name="config_combo4"  float="true" pos="10,186,0,0" width="142" height="19" dropboxsize="0,120" normalimage="file='Image/Combo_nor.bmp'" hotimage="file='Image/Combo_over.bmp'"/>
+		<Edit name="config_edit4" float="true" pos="11,187,0,0" width="121" height="17" />
+		<Button name="ok_btn" float="true" pos="50,215,0,0" width="60" height="25" text="OK" align="true" normalimage="file='Image/ok_nor.png'" hotimage="file='Image/ok_hot.png'" />
+	</VerticalLayout>	
+</Window>

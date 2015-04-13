@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window size="240,440" mininfo="40,32" caption="0,0,0,30" roundcorner="6,6,8,8" >
+	<Font name="幼圆" size="13" default="true" />
+	<Font name="楷体" bold="true" size="21" />
+	<Font name="幼圆" bold="true" size="18" />
+	<VerticalLayout bkcolor="FFe6f1f5" bkcolor2="FFeaf9fe">
+		<HorizontalLayout height="25" bkcolor="#FFB8DFF2">
+			<VerticalLayout width="120">
+				<Text name="opt1" text="窗口控制台" float="true" font="2" pos="5,1,0,0" textcolor="#FF140116" enabledeffect="true" rhaa="2" enabledstroke="true" width="110" height="24"/>
+			</VerticalLayout>
+			<VerticalLayout />
+			<VerticalLayout width="103">	
+					<Button name="minbtn" tooltip="最小化" float="true" pos="3,4,0,0" width="26" height="19" normalimage="file='Image/sys_dlg_min.png' source='52,0,78,17'" hotimage="file='Image/sys_dlg_min.png' source='26,0,52,17'" pushedimage="file='Image/sys_dlg_min.png' source='0,0,26,17'"/>
+					<Button name="setbtn" tooltip="设置" float="true" pos="29,4,0,0" width="26" height="19" normalimage="file='Image/sys_dlg_menu.png' source='52,0,78,17'" hotimage="file='Image/sys_dlg_menu.png' source='26,0,52,17'" pushedimage="file='Image/sys_dlg_menu.png' source='0,0,26,17'"/>
+					<Button name="closebtn" tooltip="关闭" float="true" pos="56,4,0,0" width="45" height="19" normalimage="file='Image/sys_dlg_close.png' source='90,0,135,17'" hotimage="file='Image/sys_dlg_close.png' source='45,0,90,17'" pushedimage="file='Image/sys_dlg_close.png' source='0,0,45,17'"/>
+			</VerticalLayout>
+		</HorizontalLayout>
+		<HorizontalLayout>
+			<Label text="一号窗口" font="0" width="96" height="100" align="center" />
+			<Button name="wnd1" text="空闲中" font="1" textcolor="#FFf27ff6" float="true" pos="100,10,0,0" width="120" height="80" align="center" normalimage="file='Image/btn_nor.png'" hotimage="file='Image/btn_hot.png'" pushedimage="file='Image/btn_push.png'" />
+		</HorizontalLayout>
+		<HorizontalLayout>
+			<Label text="二号窗口" font="0" width="96" height="100" align="center" />
+			<Button name="wnd2" text="空闲中" font="1"textcolor="#FFf27ff6" float="true" pos="100,10,0,0" width="120" height="80" align="center" normalimage="file='Image/btn_nor.png'" hotimage="file='Image/btn_hot.png'" pushedimage="file='Image/btn_push.png'" />
+		</HorizontalLayout>
+		<HorizontalLayout>
+			<Label text="三号窗口" font="0" width="96" height="100" align="center" />
+			<Button name="wnd3" text="空闲中" font="1" textcolor="#FFf27ff6" float="true" pos="100,10,0,0" width="120" height="80" align="center" normalimage="file='Image/btn_nor.png'" hotimage="file='Image/btn_hot.png'" pushedimage="file='Image/btn_push.png'" />
+		</HorizontalLayout>
+		<HorizontalLayout>
+			<Label  text="四号窗口" font="0" width="96" height="100" align="center" />
+			<Button name="wnd4" text="空闲中" font="1" textcolor="#FFf27ff6" float="true" pos="100,10,0,0" width="120" height="80" align="center" normalimage="file='Image/btn_nor.png'" hotimage="file='Image/btn_hot.png'" pushedimage="file='Image/btn_push.png'" />
+		</HorizontalLayout>
+	</VerticalLayout>
+</Window>

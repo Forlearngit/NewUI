@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Window size="380,440" mininfo="40,32" caption="0,0,0,30" roundcorner="6,6,8,8" >
+	<Font name="幼圆" size="13" default="true" />
+	<Font name="微软雅黑" size="18" />
+	<Font name="幼圆" bold="true" size="16"/>
+	<Font name="黑体" size="24"/>
+	<VerticalLayout bkcolor="FFe6f1f5" bkcolor2="FFeaf9fe">
+		<HorizontalLayout height="25" bkcolor="#FFB8DFF2">
+			<VerticalLayout width="120">
+				<Text name="opt1" text="窗口控制台" float="true" font="1" pos="5,1,0,0" textcolor="#FF140116" enabledeffect="true" rhaa="2" enabledstroke="true" width="110" height="24"/>
+			</VerticalLayout>
+			<VerticalLayout />
+			<VerticalLayout width="103">	
+					<Button name="minbtn" tooitip="最小化" float="true" pos="3,4,0,0" width="26" height="19" normalimage="file='sys_dlg_min.png' source='52,0,78,17'" hotimage="file='sys_dlg_min.png' source='26,0,52,17'" pushedimage="file='sys_dlg_min.png' source='0,0,26,17'"/>
+					<Button name="dlgbtn" tooltip="设置端口" float="true" pos="29,4,0,0" width="26" height="19" normalimage="file='sys_dlg_menu.png' source='52,0,78,17'" hotimage="file='sys_dlg_menu.png' source='26,0,52,17'" pushedimage="file='sys_dlg_menu.png' source='0,0,26,17'"/>
+					<Button name="closebtn" tooltip="关闭" float="true" pos="55,4,0,0" width="45" height="19" normalimage="file='sys_dlg_close.png' source='90,0,135,17'" hotimage="file='sys_dlg_close.png' source='45,0,90,17'" pushedimage="file='sys_dlg_close.png' source='0,0,45,17'"/>
+			</VerticalLayout>
+		</HorizontalLayout>
+		
+	</VerticalLayout>
+</Window>
