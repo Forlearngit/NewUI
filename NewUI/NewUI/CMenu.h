@@ -1,7 +1,7 @@
 #pragma once
 #include "stdafx.h"
-#include <UIlib.h>
-#pragma comment(lib,"DuiLib_ud.lib")
+#include "../DuiLib/UIlib.h"
+#pragma comment(lib,"../Lib/DuiLib_ud.lib")
 using namespace DuiLib;
 
 class CMenu:public WindowImplBase
