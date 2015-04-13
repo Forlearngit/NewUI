@@ -62,7 +62,7 @@ void CMyWnd::Start()
 	HMODULE hd = (HMODULE)GetModuleHandle(NULL);
 	CPaintManagerUI::SetInstance(hd);
 	CMyWnd myWnd;
-	myWnd.Create(NULL,_T("mywnd"),UI_WNDSTYLE_FRAME,WS_EX_WINDOWEDGE);
+	myWnd.Create(NULL,_T("´°¿Ú¿ØÖÆÌ¨"),UI_WNDSTYLE_FRAME,WS_EX_WINDOWEDGE);
 	myWnd.CenterWindow();
 	myWnd.ShowModal();
 }
@@ -94,6 +94,7 @@ LRESULT CMyWnd::OnSysCommand(UINT uMsg, WPARAM wParam, LPARAM lParam, BOOL& bHan
 
 void CMyWnd::InitWindow()
 {
+	SetIcon(IDI_ICON1);
 	NOTIFYICONDATA nid;
 	nid.cbSize=sizeof(NOTIFYICONDATA);
 	nid.hWnd=m_hWnd;
