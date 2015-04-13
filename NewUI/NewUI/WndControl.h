@@ -1,7 +1,7 @@
 #pragma once
 #include "stdafx.h"
 #include <../DuiLib/UIlib.h>
-#pragma comment(lib,"DuiLib_ud.lib")
+#pragma comment(lib,"../Lib/DuiLib_ud.lib")
 using namespace DuiLib;
 
 #define WM_TRAY_MESSAGE (WM_USER+1)
